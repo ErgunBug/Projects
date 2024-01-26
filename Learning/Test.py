@@ -25,7 +25,7 @@ Romance = ["Violet Evergarden", "Charlotte", "Words Bubble up like soda pop", "F
 if Eingabe == "Romance":
     r = randint(0, 7)
     print(Romance[r])
-    
+
 Scifi = ["Men in Black", "Spider-man", "The Avenger: End Game", "Black Panther", "Interstellar", "Transformers", "James Bond", "The Adam Project"]
 if Eingabe == "Scifi":
     r = randint(0, 7)
@@ -40,3 +40,7 @@ Dokumentation = ["The Last Dance", "The Redeem Team", "Seaspiracy", "The colours
 if Eingabe == "Dokumentation":
     r = randint(0, 7)
     print(Dokumentation[r])
+else:
+  Eingabe == "Doku"
+  r = randint(0, 7)
+  print(Dokumentation[r])
