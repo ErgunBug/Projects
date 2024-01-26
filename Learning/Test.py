@@ -1,3 +1,4 @@
+from math import radians
 from random import randint
 
 print("Willkommen zu meinem Filme Generator!")
@@ -40,7 +41,7 @@ Dokumentation = ["The Last Dance", "The Redeem Team", "Seaspiracy", "The colours
 if Eingabe == "Dokumentation":
     r = randint(0, 7)
     print(Dokumentation[r])
-else:
-  Eingabe == "Doku"
-  r = randint(0, 7)
+  
+if Eingabe == "Doku":
+  r = randint(0,7)
   print(Dokumentation[r])
